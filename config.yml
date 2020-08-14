@@ -1,0 +1,19 @@
+title: Introduction to HTML
+description: >-
+  We're going pretty old school. What is HTML, when do we use it and what are
+  the best practices. Plus we'll look at how you'll typically interact with it
+  day-2-day in the workplace.
+template:
+  repo: introduction-to-html-template
+  name: introduction-to-html
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
